@@ -1,0 +1,154 @@
+18<=Nodejs<=21
+
+Open terminal/command prompt
+
+execute below commands 
+npm install create-react-app // installation of CRA package
+
+npx create-react-app appname // using CRA to create React apps
+Example  - npx create-react-app reactapp1
+
+cd appname // entering into app
+cd reactapp1
+
+npm start  // starting app
+
+u will get to see shaktiman's logo once it is started
+
+// Es6 features 
+
+class Trainee {}
+
+var trainee1 = new Trainee()
+
+Object literals means directly assign curly braces
+
+
+Scopes // let 
+// spread operators 
+// destructuring 
+// import and exports 
+// arrow functions 
+
+
+// context of exectuion 
+// functions get executed where is known as COE 
+
+function sendEmail(){
+
+}
+
+sendEmail()
+
+
+this operators --- current instance gle page application 
+
+npm start --- starts a http server on port 3000 
+from our browsers when we make a get request on port 3000 
+
+that server sends us an application which is ur sin
+
+es6 into es5 babel 
+
+CRA  internally doing it for us various pacakegs 
+
+node_modules
+
+npm install will go to main file or our project 
+pacakage.json
+
+node_moduless -- all packages
+public --static resources 
+src- source code 
+package.json is entry point or mail file of any js project
+contains all info about your app/project
+
+
+<input />  // html element 
+
+when i use html element in a js file it is knwon as JSX
+Javascript Xml
+
+html has to be used inside js files there comes some rules
+
+
+1st rule all the tags must be closed 
+2nd rule style must be an object 
+in normal html tag style - "height:10px"
+in jsx style must be  - style ={{"height":"10px"}}
+3rd rule class should be className
+
+function X(){
+
+
+    return (
+        <div>
+        </div>
+    )
+
+    // it is not reachable 
+}
+i want to do somethign after return 
+
+useEffect(()=>{
+    // start the timer 
+})
+
+useEffect is a react hook which calls a function after the component is successfully RENDERED in capitals 
+
+
+Routing is the mapping of elements on some paths 
+
+
+63e45
+
+
+localhost:3000 
+
+home component in home screen we will show a carousel and below that carousel we will show list of cakes coming into card format into row 
+
+in navbar we have to linking to login path 
+
+from login component we can navigate to /forgot and NEw User? Register
+
+
+
+/register 
+method - post 
+data-{email:"avalidemail",name:"",password:""}
+
+axios({
+    method:"post",
+    data:{email:"avalidemail",name:"",password:""}
+})
+
+/login
+method - post 
+data - {email, password }
+
+/addcaketocart
+post
+{cakeid,image,wight,price,name}
+headers :{Authorization:that token which u have}
+
+get 
+/cakecart
+headers :{Authorization:that token which u have}
+
+
+By Default nature of redux is asynch 
+
+{name,address,city,pincode,phone,cakes,price}
+
+Admin can be a module 
+
+i want to load in browser only when needed 
+
+Lazy Loading 
+
+React.lazy 
+Lazy and Suspense 
+
+Lazy will load module only when required 
+Suspense will show a view for the time being componenent is loading from server
+
